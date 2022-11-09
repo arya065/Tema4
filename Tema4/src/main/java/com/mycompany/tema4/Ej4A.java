@@ -7,10 +7,6 @@ public class Ej4A {
 
     public static void main(String[] args) {
         Random rand = new Random();
-        //загадывают цифру
-        //одновременно произносит цифру от 1 до 10
-        //Одновременно показывают руку с цифрой
-        //Тот кто назвал правильно сумму цифр побеждает
         int i = 0;
         int numeroSumma = 0;
         int numeroMano = 0;
@@ -130,6 +126,4 @@ public class Ej4A {
         return playAgain;
     }
 
-} /*Los clientes de una tienda casi siempre tienen descuento al llegar a pagar a la caja durante la semana loca. Cuando van a pagar tienen que sacar una bola de una bolsa, que es la que nos indica el descuento. Si la bola es de color azul se obtiene un 20%, si es roja un 25%, si es blanca no hay descuento y si es verde, se saca de la bolsa y se vuelve a sacar otra de las restantes.
-Escribe un programa que lea el importe a pagar por el cliente e imprima la bola que “sacó” de la bolsa y el importe con el descuento aplicado.
-El programa, una vez finaliza un cliente, pregunta si hay otro en la cola para operar de la misma forma. Si no hay clientes, el programa termina.
+}
